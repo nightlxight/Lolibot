@@ -15,5 +15,8 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-    
+    let { onReadyWhenSuccessful } = require('./config/onReady/successful.json');
+    console.log(onReadyWhenSuccessful);
 });
+
+client.login(token);
