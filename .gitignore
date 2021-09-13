@@ -5,7 +5,7 @@ bin-release/
 [Bb]in/
 
 # Other files and folders
-.node_modules
+
 
 # Executables
 *.swf
