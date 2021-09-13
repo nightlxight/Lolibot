@@ -13,3 +13,7 @@ for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
     client.commands.set(command.data.name, command);
 }
+
+client.once('ready', () => {
+    
+});
