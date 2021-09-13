@@ -17,6 +17,7 @@ for (const file of commandFiles) {
 client.once('ready', () => {
     let { onReadyWhenSuccessful } = require('./config/onReady/successful.json');
     console.log(onReadyWhenSuccessful);
+    console.log(`Logged in as ${client_user_tag}`);
 });
 
 
